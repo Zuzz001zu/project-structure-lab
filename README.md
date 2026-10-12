@@ -16,10 +16,10 @@ project-structure-lab/
 ├── src/                   # исходный код
 │   ├── README.md
 │   ├── main.py            # точка входа (CLI)
-│   └── text\_stats.py      # логика подсчёта статистики
+│   └── text\\\_stats.py      # логика подсчёта статистики
 ├── tests/                 # автотесты
 │   ├── README.md
-│   └── test\_text\_stats.py
+│   └── test\\\_text\\\_stats.py
 ├── docs/                  # документация
 │   ├── README.md
 │   └── architecture.md    # обоснование структуры
@@ -36,7 +36,7 @@ project-structure-lab/
 Схема работы:
 
 ```
- assets/sample.txt ──► src/main.py ──► src/text\_stats.py ──► отчёт в консоли
+ assets/sample.txt ──► src/main.py ──► src/text\\\_stats.py ──► отчёт в консоли
                          (CLI)            (подсчёт)
 ```
 
@@ -76,6 +76,40 @@ python src/main.py assets/sample.txt --top 3
 ```bash
 pytest
 ```
+
+
+
+## \## FAQ
+
+
+
+\*\*Какая версия Python нужна?\*\*
+
+Python 3.9 или новее.
+
+
+
+\*\*Как запустить скрипт на своём файле?\*\*
+
+`python src/main.py путь/к/файлу.txt --top 10`
+
+
+
+\*\*Файл в какой кодировке поддерживается?\*\*
+
+UTF-8.
+
+
+
+\*\*Как запустить тесты?\*\*
+
+Установите зависимости (`pip install -r requirements.txt`) и выполните `pytest` из корня проекта.
+
+
+
+\*\*Где описана структура проекта?\*\*
+
+В разделе «Структура проекта» выше и в файле \[docs/architecture.md](docs/architecture.md).
 
 ## Лицензия
 
