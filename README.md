@@ -16,10 +16,10 @@ project-structure-lab/
 ├── src/                   # исходный код
 │   ├── README.md
 │   ├── main.py            # точка входа (CLI)
-│   └── text\\\_stats.py      # логика подсчёта статистики
+│   └── text_stats.py      # логика подсчёта статистики
 ├── tests/                 # автотесты
 │   ├── README.md
-│   └── test\\\_text\\\_stats.py
+│   └── test_text_stats.py
 ├── docs/                  # документация
 │   ├── README.md
 │   └── architecture.md    # обоснование структуры
@@ -36,7 +36,7 @@ project-structure-lab/
 Схема работы:
 
 ```
- assets/sample.txt ──► src/main.py ──► src/text\\\_stats.py ──► отчёт в консоли
+ assets/sample.txt ──► src/main.py ──► src/text_stats.py ──► отчёт в консоли
                          (CLI)            (подсчёт)
 ```
 
