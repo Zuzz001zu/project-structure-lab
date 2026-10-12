@@ -1,4 +1,4 @@
-# Text Stats — анализатор текста
+# Text Stats - анализатор текста
 
 Небольшой Python-скрипт командной строки, который считает статистику по текстовому файлу:
 количество строк, слов, символов и самые частые слова.
@@ -16,10 +16,10 @@ project-structure-lab/
 ├── src/                   # исходный код
 │   ├── README.md
 │   ├── main.py            # точка входа (CLI)
-│   └── text_stats.py      # логика подсчёта статистики
+│   └── text\_stats.py      # логика подсчёта статистики
 ├── tests/                 # автотесты
 │   ├── README.md
-│   └── test_text_stats.py
+│   └── test\_text\_stats.py
 ├── docs/                  # документация
 │   ├── README.md
 │   └── architecture.md    # обоснование структуры
@@ -36,7 +36,7 @@ project-structure-lab/
 Схема работы:
 
 ```
- assets/sample.txt ──► src/main.py ──► src/text_stats.py ──► отчёт в консоли
+ assets/sample.txt ──► src/main.py ──► src/text\_stats.py ──► отчёт в консоли
                          (CLI)            (подсчёт)
 ```
 
@@ -45,7 +45,7 @@ project-structure-lab/
 Требуется Python 3.9+.
 
 ```bash
-git clone https://github.com/<ваш-логин>/project-structure-lab.git
+git clone https://github.com/Zuzz001zu/project-structure-lab.git
 cd project-structure-lab
 pip install -r requirements.txt
 ```
@@ -83,6 +83,6 @@ pytest
 
 ## Контакты
 
-Автор: Иван Петров
-Email: ivan.petrov@example.com
-GitHub: https://github.com/<ваш-логин>
+Автор: Zara Gadzhieva
+GitHub: https://github.com/Zuzz001zu
+
