@@ -109,7 +109,7 @@ UTF-8.
 
 *Где описана структура проекта?*
 
-В разделе «Структура проекта» выше и в файле \[docs/architecture.md](docs/architecture.md).
+В разделе «Структура проекта» выше и в файле [docs/architecture.md](docs/architecture.md).
 
 ## Лицензия
 
